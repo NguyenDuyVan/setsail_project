@@ -1,4 +1,4 @@
-import React, {memo} from "react";
+import React, { memo } from "react";
 
 function ContentListImage({ data, responsive }) {
   return (
@@ -10,13 +10,13 @@ function ContentListImage({ data, responsive }) {
             data-label={item.label}
             className={`item-image ${responsive}`}
           >
-            <a href="/" className="item-image-link">
+            <a href="/a" className="item-image-link">
               <img src={item.thumbnail} alt="" className="image" />
               <div className="item-title">{item.title}</div>
               <div className="inner-wrapper">
                 <div className="left-inner">
                   <span className="destination">{item.destination}</span>
-                  <p className="desc">{ item?.desc}</p>
+                  <p className="desc">{item?.desc}</p>
                   <div className="rating-wrapper">
                     <i className={item.icon}></i>
                     <p className="rating-text">{item.rating}</p>
