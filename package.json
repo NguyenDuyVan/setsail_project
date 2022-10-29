@@ -1,6 +1,6 @@
 {
   "homepage": "https://setsail.vannd.site",
-  "name": "setsail_project",
+  "name": "setsail",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
